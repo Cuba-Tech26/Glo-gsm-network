@@ -1,0 +1,650 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgb(75, 180, 78);
+  position: relative;
+  width: 100%;
+  height: 3.125rem;
+  top: 0;
+}
+.part1 {
+  position: absolute;
+  top: 25%;
+}
+.personal {
+  margin-left: 9.375rem;
+  background-color: white;
+  height: 2.5rem;
+  color: rgb(75, 180, 78);
+}
+.shopbg {
+  position: absolute;
+  width: 20%;
+  top: 0;
+  right: 0;
+  height: 3.125rem;
+  background-color: rgb(0, 104, 55);
+}
+.sports {
+  position: absolute;
+  left: 40%;
+  top: 25%;
+}
+.shoptext {
+  padding-top: 0.625rem;
+}
+a {
+  padding: 6rem 1.563rem;
+  text-decoration: none;
+  color: white;
+}
+#country {
+  position: absolute;
+  top: 10%;
+  border-radius: 1.25rem;
+  border: none;
+  width: 5rem;
+  height: 1.8rem;
+  margin-left: 10.625rem;
+}
+nav {
+  position: sticky;
+  background-color: white;
+  width: 100%;
+  height: 6rem;
+}
+.logo {
+  width: 5rem;
+  margin-left: 9.5rem;
+  padding: 0.6 0rem;
+}
+.links {
+  position: absolute;
+  right: 6%;
+  left: 24%;
+  top: 40%;
+}
+.links a {
+  color: black;
+  padding: 0 0.9rem 1.25rem;
+}
+.links a:hover {
+  color: rgb(75, 180, 78);
+  border-bottom: 5px solid rgb(75, 180, 78);
+}
+
+.herosection {
+  position: relative;
+  background-image: url("/images/fmidwig9z8ei8iihuz1g.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 37.5rem;
+}
+.quick {
+  position: relative;
+  background-color: black;
+  color: white;
+  width: 75%;
+  height: 15%;
+  left: 10%;
+  right: 25%;
+  top: 92%;
+  z-index: 5;
+}
+::placeholder {
+  padding-left: 1.8rem;
+}
+.input3::placeholder {
+  padding-left: 1.8rem;
+  color: white;
+}
+h1 {
+  padding: 1.25rem 2.5rem;
+  font-weight: bolder;
+}
+.input1 {
+  position: absolute;
+  width: 26%;
+  height: 3rem;
+  left: 26%;
+  margin: 0.9rem 0;
+  top: 8%;
+}
+.input2 {
+  position: absolute;
+  width: 26%;
+  height: 3rem;
+  left: 53%;
+  top: 8%;
+  margin: 0.9rem 0;
+}
+.input3 {
+  position: absolute;
+  width: 18%;
+  height: 3rem;
+  margin: 0.9rem 0;
+  left: 80%;
+  color: white;
+  background-color: rgb(23, 202, 71);
+  top: 8%;
+  border: none;
+  border-top-right-radius: 1.563rem;
+  border-bottom-right-radius: 1.563rem;
+}
+.sec2 {
+  position: relative;
+  background-color: rgb(218, 219, 219);
+  width: 100%;
+  height: 105.5rem;
+  z-index: -1;
+}
+
+.sec2 h1 {
+  text-align: center;
+  padding-top: 7.8rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(75, 180, 78);
+}
+.buydata-sec {
+  background-color: black;
+  width: 26%;
+  height: 25rem;
+  border-radius: 1.25rem;
+  margin-left: 10%;
+}
+
+.buyData {
+  position: absolute;
+  left: 10%;
+  z-index: 1;
+  width: 26%;
+  height: 25rem;
+  opacity: 0.5;
+  border-radius: 1.25rem;
+}
+h2 {
+  position: absolute;
+  text-transform: uppercase;
+  top: 17%;
+  left: 18%;
+  font-weight: bolder;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+p {
+  position: absolute;
+  top: 19%;
+  text-align: center;
+  left: 10%;
+  font-size: 0.9remrem;
+  font-weight: lighter;
+  color: white;
+  z-index: 1;
+}
+.tarrif {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  opacity: 0.5;
+  width: 100%;
+  height: 25rem;
+  border-radius: 1.25rem;
+}
+.tarrif-sec {
+  position: absolute;
+  top: 12rem;
+  z-index: 1;
+  background-color: black;
+  width: 26%;
+  height: 25rem;
+  left: 38%;
+  border-radius: 1.25rem;
+  transition: width 2s, height 2s;
+}
+
+.tplans {
+  position: absolute;
+  text-transform: uppercase;
+  top: 32%;
+  left: 23%;
+  font-weight: bolder;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+}
+.tarrif-sec p {
+  padding-top: 6rem;
+  padding-right: 1.25rem;
+  font-size: 0.9rem;
+}
+.borrow_data {
+  position: absolute;
+  top: 12rem;
+  background-color: black;
+  width: 26%;
+  height: 25rem;
+  right: 8%;
+  border-radius: 1.25rem;
+}
+.borrow-img {
+  position: absolute;
+  top: 0;
+  left: 0%;
+  width: 100%;
+  height: 25rem;
+  opacity: 0.5;
+  border-radius: 1.25rem;
+}
+.borrow_data h2 {
+  padding-top: 3.8rem;
+  padding-left: 1.8rem;
+}
+.borrow_data p {
+  padding-top: 6rem;
+  font-size: 0.9rem;
+}
+.share-data {
+  position: absolute;
+  top: 66.2rem;
+  background-color: black;
+  width: 54%;
+  height: 24rem;
+  transition: width 2s;
+  left: 10%;
+  border-radius: 1.25rem;
+}
+.share-data:hover {
+  width: 56%;
+}
+.share-dataimg {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  height: 100%;
+  border-radius: 1.25rem;
+  right: 0;
+}
+.share-data h2 {
+  padding-top: 1.25rem;
+  margin-left: 9.375rem;
+}
+.share-data h2:hover {
+  cursor: pointer;
+  font-display: bolder;
+}
+.text {
+  text-align: center;
+  padding-top: 3.125rem;
+  margin-left: 5rem;
+  font-size: 0.9rem;
+}
+.glo-business {
+  position: absolute;
+  top: 39.1rem;
+  background-color: black;
+  width: 26%;
+  height: 50.9rem;
+  right: 8%;
+  border-radius: 1.25rem;
+}
+.glo-businessimg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  left: 0;
+  border-radius: 1.25rem;
+}
+.glo-businesstext {
+  font-weight: bolder;
+  margin-top: 7.8rem;
+  margin-left: 1.8rem;
+}
+.paragraph {
+  margin-top: 8.98rem;
+  padding: 0 1.25rem;
+}
+.gift-data {
+  position: absolute;
+  bottom: 41.7rem;
+  background-color: black;
+  width: 26%;
+  height: 25rem;
+  left: 10%;
+  border-radius: 1.25rem;
+}
+.gift-dataimg {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  height: 100%;
+  border-radius: 1.25rem;
+  right: 0;
+}
+.gift-data-h2 {
+  margin-left: 3.5rem;
+  padding-top: 4rem;
+}
+.gift-data-p {
+  margin-top: 5.5rem;
+  margin-right: 1.25rem;
+}
+
+.entertainment {
+  position: absolute;
+  bottom: 41.7rem;
+  background-color: black;
+  width: 24rem;
+  height: 25rem;
+  left: 38%;
+  border-radius: 1.25rem;
+}
+.entertain-h2 {
+  margin-left: 3.5rem;
+  padding-top: 4rem;
+}
+.entertain-img {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.5;
+  height: 100%;
+  border-radius: 1.25rem;
+  right: 0;
+  transition: width 2s height 2s;
+  cursor: pointer;
+}
+.entertain-img:hover {
+  cursor: pointer;
+  width: 35rem;
+  height: 40.625rem;
+}
+.sec3 {
+  position: relative;
+  background-color: white;
+  width: 100%;
+  height: 48rem;
+}
+.greenbg {
+  position: absolute;
+  top: 13%;
+  border-right: 12rem solid;
+  border-right-color: rgb(184, 212, 50);
+  border-right-width: 3rem;
+  border-right-style: solid;
+  border-bottom-right-radius: 18.75rem;
+  background-color: hsl(141, 65%, 32%);
+  width: 50%;
+  height: 25rem;
+}
+.greenbg h1 {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 28px;
+  margin-top: 4rem;
+}
+.greenbg p {
+  margin-top: 5rem;
+  text-align: start;
+  color: white;
+}
+.sec3-btn {
+  width: 15rem;
+  height: 2.5rem;
+  color: rgb(75, 180, 78);
+  border: none;
+  cursor: pointer;
+  border-radius: 1.25rem;
+  margin-left: 4.188rem;
+  margin-top: 2.5rem;
+}
+.sec3-btn:hover, .glo-tv-btn:hover{
+background-color: rgb(7, 118, 12); 
+color: rgb(184, 212, 50); 
+/* transition: ease-in-out 1s; */
+}
+.find-store {
+  text-align: center;
+  padding-top: 35%;
+  color: rgb(75, 180, 78);
+  font-size: 2.5rem;
+  
+  font-weight: bolder;
+}
+.find-p {
+  text-align: center;
+  margin-left: 18.75rem;
+  padding-top: 30%;
+  color: black;
+  font-weight: normal;
+}
+.sec4 {
+  position: relative;
+}
+.glo-tv {
+  position: absolute;
+  background-color: rgb(22, 21, 21);
+  bottom: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+}
+.glo-tv-logo {
+  position: absolute;
+  top: 38%;
+  left: 10%;
+  height: 100%;
+  width: 28%;
+}
+.glo-text {
+  text-align: start;
+  font-weight: bold;
+  margin-top: 0.8rem;
+  color:rgba(203, 130, 4, 0.826)
+}
+
+.glo-tv-btn {
+  position: relative;
+  width: 9.375rem;
+  height: 2.5rem;
+  top: 10%;
+  left: 10%;
+  background-color: rgb(75, 180, 78);
+  color: white;
+  text-transform: uppercase;
+  border-radius: 1.25rem;
+  margin-bottom: 3.125rem;
+  cursor: pointer;
+  border: none;
+}
+.ratnik-phone {
+  position: absolute;
+  z-index: 0;
+  opacity: 0.8;
+  bottom: 0;
+}
+.sec5 {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 52.25rem;
+  color: rgb(75, 180, 78);
+}
+.sec5 h1 {
+  margin-top: 3.125rem;
+  margin-right: 2.5rem;
+}
+.sec5-parag {
+  color: black;
+  top: 7%;
+  left: 18.75rem;
+  font-weight: bolder;
+}
+.advance {
+  position: absolute;
+  left: 15%;
+  top: 12rem;
+  background-color: white;
+  width: 18.75rem;
+  height: 36rem;
+  transition: ease-in-out 1s;
+  border: none;
+}
+.advance:hover,.mike:hover, .doubt:hover {
+  box-shadow: 4px 2px 0.625rem 4px rgba(0, 0, 0, 0.2);
+  /* width: 30.625rem; */
+  height: 35rem;
+  
+}
+
+.advance-img:hover, .adenuga:hover, .doubt-img:hover{
+ width: 18.75rem; 
+}
+.advance-img {
+  position: absolute;
+  transition: ease-in-out 1s;
+  left: 0;
+}
+.adv-h3 {
+  position: absolute;
+  bottom: 0.625rem;
+  font-size: 1.25rem;
+  color: black;
+  font-weight: bolder;
+}
+.mike {
+  position: absolute;
+  left: 40%;
+  top: 12rem;
+  background-color: white;
+  width: 18.75rem;
+  height: 36rem;
+  border: none;
+  transition: ease-in-out 1s;
+}
+.adenuga {
+  position: absolute;
+  transition: ease-in-out 1s;
+  left: 0;
+}
+.mike-h3 {
+  position: absolute;
+  bottom: 0.625rem;
+  font-size: 1.25rem;
+  color: black;
+  font-weight: bolder;
+}
+
+.doubt {
+    position: absolute;
+    left: 65%;
+    top: 12rem;
+    background-color: white;
+    width: 18.75rem;
+    height: 36rem;
+    border: none;  
+    transition: ease-in-out 1s; 
+}
+.doubt-img {
+    position: absolute;
+    left: 0;   
+    transition: ease-in-out 1s;
+}
+.promo {
+    position: absolute;
+    bottom: 0.625rem;
+    font-size: 1.25rem;
+    color: black;
+    font-weight: bolder;   
+}
+.see-all {
+    margin-top: 44rem;
+    
+    width: 9.375rem;
+    height: 2.5rem;
+    top: 10%;
+    left: 10%;
+    background-color: rgb(75, 180, 78);
+    color: white;
+    text-transform: uppercase;   
+    border: none;
+    border-radius: 1.25rem;
+    bottom: 0;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+
+.see-all:hover{
+ width: 12rem;
+ background-color: rgb(7, 118, 12);
+ color: rgb(184, 212, 50);
+}
+.date {
+font-size: 0.625rem;    
+color: black;
+margin-top: 33.125rem;    
+}
+
+footer {
+position: relative;
+background-color: black;
+width: 100%;
+height: 37.5rem;    
+}
+ .footer4h2 {
+    position: relative;
+    padding-bottom: 1.25rem;
+    color: #fff; 
+    left: 1%;
+    font-size: 1.25rem;
+    
+  
+    
+    }
+.subfooter {
+    position: absolute;
+    left: 12%;  
+    top: 20%;  
+    }
+    .subfooter1 {
+    position: absolute;
+    left: 26%; 
+    top: 20%;   
+    }
+    .subfooter2 {
+    top: 20%;    
+    position: absolute;
+    left: 43%;    
+    }
+    .subfooter3 {
+     top: 20%;   
+    position: absolute;
+    left: 57% ;   
+    }
+    .subfooter4 {
+     top: 20%;   
+    position: absolute;
+    left:74% ;   
+    }
+ ul a:hover {
+ color: rgb(23, 202, 71);   
+ }
+ .allright {
+ margin-top: 33.125rem; 
+ margin-left: 3.125rem;  
+ }
